@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <title>EL RINCON DEL FUEGO</title>
+    <link rel="stylesheet" href="/css/EstiloParr.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo-titulo">
+            <img src="https://i.pinimg.com/736x/f4/e8/a9/f4e8a9b010c5b663ca3e58a1af1f8e71.jpg" alt="logo" class="logotipo">
+            <h1 class="titulo">EL RINCÓN DEL FUEGO</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#carta" target="_blank">Carta</a></li>
+                <li><a href="snos.html" class="boton">Conócenos</a></li>
+                <li><a href="#contacto" class="boton">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="eslo">
+        <p>"Enciende tus sentidos en el destino gastronómico definitivo"</p>
+    </div>
+
+    <div class="capaC">
+        <h2> Nuestro menú destacado:</h2> <br>
+    
+        <div class="plato">
+            <img src="https://i.pinimg.com/474x/1d/26/ea/1d26ea4b875874a62a0ca14811741f6d.jpg" alt="Comida1">
+            <div class="descripcion">
+                <h3>Parrillada Mixta</h3>
+                <p>Disfruta de la jugosidad de cortes selectos, cocidos a la perfección sobre el fuego. Este plato es ideal para compartir y deleitarte con la intensidad de los sabores ahumados. ¡La mejor forma de disfrutar la parrilla!</p>
+            </div>
+            <div class="ingredientes">
+                <p><strong>Ingredientes:</strong></p>
+                <ul>
+                    <li>Carne de res</li>
+                    <li>Salchichas</li>
+                    <li>Pollo</li>
+                    <li>Pimientos</li>
+                    <li>Cebollas</li>
+                </ul>
+            </div>
+        </div>
+    
+        <hr class="divisor">
+    
+        <div class="plato">
+            <img src="https://i.pinimg.com/474x/4f/37/87/4f37878d739c98c4e88028edbabc3313.jpg" alt="Comida2">
+            <div class="descripcion">
+                <h3>Costillas de Cerdo Glaseadas</h3>
+                <p>Un corte tierno, perfectamente sellado y servido con guarniciones como papas asadas y cebollas caramelizadas. Sazona cada bocado con hierbas frescas para una explosión de sabor en tu paladar.</p>
+            </div>
+            <div class="ingredientes">
+                <p><strong>Ingredientes:</strong></p>
+                <ul>
+                    <li>Costillas de cerdo</li>
+                    <li>Glaseado de miel</li>
+                    <li>Papas asadas</li>
+                    <li>Cebollas caramelizadas</li>
+                    <li>Hierbas frescas</li>
+                </ul>
+            </div>
+        </div>
+    
+        <hr class="divisor">
+    
+        <div class="plato">
+            <img src="https://i.pinimg.com/474x/72/3d/c1/723dc1a00608d62c0b739e83d57f8799.jpg" alt="comida3">
+            <div class="descripcion">
+                <h3>Pollo al Horno con Salsa de Vino Blanco</h3>
+                <p>La combinación ideal entre un suculento corte de carne y guarniciones ricas, como papas y vegetales al gusto, todo acompañado por una salsa casera que elevará la experiencia gastronómica.</p>
+            </div>
+            <div class="ingredientes">
+                <p><strong>Ingredientes:</strong></p>
+                <ul>
+                    <li>Pollo</li>
+                    <li>Salsa de vino blanco</li>
+                    <li>Papas</li>
+                    <li>Vegetales</li>
+                    <li>Hierbas</li>
+                </ul>
+            </div>
+        </div>
+    
+        <hr class="divisor">
+    
+        <div class="plato">
+            <img src="https://i.pinimg.com/474x/af/88/ca/af88cabdd1283a6e14551a667c9ae43c.jpg" alt="comida4">
+            <div class="descripcion">
+                <h3>Filete de Mignon con Salsa</h3>
+                <p>Un filete jugoso, preparado a la parrilla y cubierto con mantequilla de ajo y hierbas frescas. Perfecto para quienes buscan una experiencia única y llena de sabor en cada bocado.</p>
+            </div>
+            <div class="ingredientes">
+                <p><strong>Ingredientes:</strong></p>
+                <ul>
+                    <li>Filete de Mignon</li>
+                    <li>Mantequilla de ajo</li>
+                    <li>Hierbas frescas</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- CARTA UW-->
+
+    <section id="carta" class="seccion">
+        <h2>Nuestra Carta</h2>
+        <div class="contenedor-cartas">
+            <img src="/static/img/1.png" alt="Carta" class="imagen-carta" id="menu1">
+            <img src="/static/img/2.png" alt="imagen-carta2" class="imagen-carta" id="menu2" style="display: none;">
+        </div>
+        <div class="botones">
+            <button onclick="mostrarMenu('menu1')">Ver Menú 1</button>
+            <button onclick="mostrarMenu('menu2')">Ver Menú 2</button>
+        </div>
+    </section>
+    
+
+    
+    
+    <!-- CONTACTO -->
+        <div class="contactoCuadro">
+            <div class="menu">
+                <p id="contacto">
+                    <h2>Contacto:</h2>
+                    <img src="/static/img/instagram-logo.png" alt="instagramlogo" class="loginsta">
+                    <a href="https://www.instagram.com/rincondelfuego___?igsh=bHFzeXJ1azVmd2p6" target="_blank"> Instagram</a>
+                    <br>
+                    <h4>Tel: +51 924 884 344</h4>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+
+
+<script src="/js/menuToggle.js"></script>
+    
+</html>

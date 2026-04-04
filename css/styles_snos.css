@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #020402;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: #fff;
+}
+
+.header {
+  background: #4a1a1a;  
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+}
+
+.logotipo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.titulo {
+  color: #ffdbc5;
+  font-size: 36px;
+}
+
+button {
+  background-color: #ffffff;
+  border: 1px solid rgb(209, 213, 219);
+  border-radius: 0.5rem;
+  color: #111827;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #f9fafb;
+}
+
+button a {
+  text-decoration: none;
+  color: #111827;
+}
+
+button:focus {
+  outline: 2px solid rgba(0, 0, 0, 0.1);
+  outline-offset: 2px;
+}
+
+.contenedor {
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.seccion {
+  padding: 40px;
+  background: #4a1a1a;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.seccion h2 {
+  font-size: 28px;
+  color: #ffdbc5;
+  margin-bottom: 20px;
+}
+
+.seccion p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.perfil img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.perfil h3 {
+  font-size: 20px;
+  color: #ffdbc5;
+}
+
+.perfil p {
+  margin: 0;
+  font-size: 16px;
+  color: #cba188;
+}
