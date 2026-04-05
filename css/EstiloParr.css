@@ -82,18 +82,19 @@ h4 {
 }
 
 .capaC {
-    background: #4a1a1a; /* Fondo oscuro para los platillos */
+    background: #4a1a1a;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px 50px;
+    margin: 20px 10px;
     color: white;
     flex-wrap: wrap;
 }
 
 .plato {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: flex-start;
-    justify-content: space-between;
     margin-bottom: 20px;
     padding: 15px;
     border-radius: 10px;
@@ -179,7 +180,8 @@ h4 {
 }
 
 .imagen-carta {
-    width: 45%; /* Ajusta el ancho de las imágenes para que quepan lado a lado */
+    width: 90%; /* Ajusta el ancho de las imágenes para que quepan lado a lado */
+    max-width: 500px;
     height: auto;
     border-radius: 10px;
 }
@@ -210,4 +212,34 @@ h4 {
 .botones button:focus {
     outline: 2px solid rgba(0, 0, 0, 0.1);
     outline-offset: 2px;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu ul {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .plato {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+
+    .plato img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .descripcion, .ingredientes {
+        margin-left: 0;
+        width: 100%;
+    }
 }
