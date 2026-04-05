@@ -9,6 +9,9 @@ body {
     overflow-x: hidden; /* Esta propiedad oculta la barra de desplazamiento horizontal */
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 h2 {
     color: white;
